@@ -1,16 +1,16 @@
 <?php
 
 ### Site ###
-$siteName = 'BSchleyer'; // SiteName
-$indexName = 'Maintenance'; // Name of the index file (Tablist)
-$imprintName = 'Imprint'; // Name of the imprint file (Tablist)
-$privacyName = 'Privacy'; // Name of the policy file (Tablist)
-$url = 'https://maintenance.bschleyer.de/'; // URL with "/" to the end
+$siteName = 'Penro-Events.de'; // SiteName
+$indexName = 'Wartung'; // Name of the index file (Tablist)
+$imprintName = 'Impressum'; // Name of the imprint file (Tablist)
+$privacyName = 'Datenschutz'; // Name of the policy file (Tablist)
+$url = 'https://penro-events.de'; // URL with "/" to the end
 
-$button_left = 'Privacy'; // button in the footer of the left side
-$button_right = 'Imprint'; // button in the footer of the right side
+$button_left = 'Datenschutz'; // button in the footer of the left side
+$button_right = 'Impressum'; // button in the footer of the right side
 
-$button_backhome = 'Back to Home'; // button in the header of imprint and privacy to go back home
+$button_backhome = 'Zurück'; // button in the header of imprint and privacy to go back home
 
 ### Assets ###
 $cdnUrl = $url.'assets/'; // link to the css, js ... files
@@ -18,7 +18,7 @@ $imgUrl = $url.'assets/images/'; // link to the images (photos, ...) files
 
 ### Text ###
 $title_page = 'Wartungsmodus'; // index Title
-$text_page = 'Wir sind momentan an der Entwicklung unseres Systems. Nach Ablauf des Counters, erscheinen wir. :)'; // index Text
+$text_page = 'Wir arbeiten gerade hart daran unsere Eigene Seite zu entwicklen. Sobald dieser Counter abgelaufen ist, erscheint hier etwas neues'; // index Text
 
 $day = 'Days'; // Text-Box: Day
 $hours = 'Hours'; // Text-Box: Hours
@@ -26,10 +26,10 @@ $minutes = 'Minutes'; // Text-Box: Minutes
 $seconds = 'Seconds'; // Text-Box: Seconds
 
 ### Countdown ###
-$c_year = '2021'; // Countdown-Set: Year
-$c_month = '10'; // Countdown-Set: Month
-$c_day = '01'; // Countdown-Set: Day
-$c_hour = '12'; // Countdown-Set: Hour
+$c_year = '2023'; // Countdown-Set: Year
+$c_month = '05'; // Countdown-Set: Month
+$c_day = '31'; // Countdown-Set: Day
+$c_hour = '00'; // Countdown-Set: Hour
 $c_minute = '00'; // Countdown-Set: Minute
 $c_second = '0'; // Countdown-Set: Second
 $c_timezone = 'Europe/Berlin'; // Timezones: http://momentjs.com/timezone/
@@ -41,8 +41,8 @@ $seo_description = 'Maintenance-Page by bschleyer.de - Björn Schleyer'; // Keyw
 ### 404 - Error-Page Settings ###
 $ErrorName = '404'; // site name
 $ErrorText_header = '404 Error'; // header text
-$ErrorText_head_under = 'Page not found'; // subheader text (slogan)
-$ErrorText = 'Unfortunately we could not meet your request. So we cannot open the page you want because it doesnt exists.'; // text of the error message
+$ErrorText_head_under = 'Seite nicht gefunden'; // subheader text (slogan)
+$ErrorText = 'Oh, scheint als ob diese Seite nicht existiert. Versuche es doch wann anders nochmal'; // text of the error message
 
 ### Imprint Settings ###
 // -- This information is according to §5 TMG (Germany) --

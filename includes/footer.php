@@ -3,7 +3,7 @@
             <script>
                 document.write(new Date().getFullYear())
             </script>
-            <?= $siteName ?> | All Rights reserved.<br>Made with-&#10084; in Gelsenkirchen, by Björn Schleyer
+            <?= $siteName ?> | All Rights reserved.<br>Made with-&#10084;
 		</span>
 
         <br>
