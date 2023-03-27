@@ -5,7 +5,7 @@ $siteName = 'Penro-Events.de'; // SiteName
 $indexName = 'Wartung'; // Name of the index file (Tablist)
 $imprintName = 'Impressum'; // Name of the imprint file (Tablist)
 $privacyName = 'Datenschutz'; // Name of the policy file (Tablist)
-$url = 'https://penro-events.de'; // URL with "/" to the end
+$url = 'https://penro-events.de/'; // URL with "/" to the end
 
 $button_left = 'Datenschutz'; // button in the footer of the left side
 $button_right = 'Impressum'; // button in the footer of the right side
